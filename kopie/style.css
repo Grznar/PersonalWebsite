@@ -41,7 +41,7 @@ opacity:1;
 }
 body {
     margin: 0;
-    overflow:hidden;
+    
     background: #0a0a0a; 
   }
   
@@ -84,7 +84,7 @@ font-size:35px;
 {
     position: relative;
 background-color: black;
-min-height: calc(100vh - 100px); /*vertikalni hodnota - vh, calc odsazeni bordedru vuci strance*/ 
+height: calc(100vh - 40px); /*vertikalni hodnota - vh, calc odsazeni bordedru vuci strance*/ 
 width: 90%;
 color:whitesmoke;
 
@@ -95,11 +95,9 @@ padding:20px;
 margin:40px auto;
 }
 
-html,body{
+body{
     font-family: 'PP Neue Montreal', sans-serif;
-    height: 100%;
-    margin:0;
-    overflow:hidden;                                
+                                                
                                                 
 }
 
@@ -220,104 +218,188 @@ font-size:15px;
 {
 opacity: 0;
 }
-@media (min-width: 1700px) {
-    .intro { font-size: 50px; }
-    .aboutme h1 { font-size: 50px; }
-    .sp-odkaz { font-size: 45px; }
-    .projects { font-size: 30px; }
-    .projects h2 { font-size: 30px; }
-    .contact { font-size: 30px; }
+
+@media(min-width:1700px)
+{
+.intro
+{
+    font-size: 60px;
 }
-@media (max-width: 1700px) {
-    .intro { font-size: 50px; }
-    .aboutme h1 { font-size: 45px; }
-    .sp-odkaz { font-size: 35px; }
-    .projects { font-size: 50px; }
-    .projects h2 { font-size: 25px; }
-    .contact { font-size: 30px; }
+.aboutme h1
+{
+font-size: 50px;
+}
+.sp-odkaz
+{
+font-size: 40px;
 }
 
-@media (max-width: 1500px) {
-    .intro { font-size: 45px; }
-    .aboutme h1 { font-size: 40px; }
-    .sp-odkaz { font-size: 30px; }
-    .projects { font-size: 45px; }
-    .projects h2 { font-size: 22px; }
-    .contact { font-size: 28px; }
+.projects
+{
+font-size: 60px;
+}
+.projects h2
+{
+font-size:30px;
+}
+.contact
+{
+font-size: 35px;
+}
 }
 
-@media (max-width: 1300px) {
-    .intro { font-size: 35px; }
-    .aboutme h1 { font-size: 30px; }
-    .sp-odkaz { font-size: 25px; }
-    .projects { font-size: 35px; }
-    .projects h2 { font-size: 15px; }
-    .contact { font-size: 25px; }
+@media(min-width:1500px)
+{
+.intro
+{
+    font-size: 60px;
+}
+.aboutme h1
+{
+font-size: 50px;
+}
+.sp-odkaz
+{
+font-size: 40px;
 }
 
-@media (max-width: 1100px) {
-    .intro { font-size: 30px; }
-    .aboutme h1 { font-size: 25px; }
-    .sp-odkaz { font-size: 20px; }
-    .projects { font-size: 30px; }
-    .projects h2 { font-size: 18px; }
-    .contact { font-size: 20px; }
+.projects
+{
+font-size: 55px;
+}
+.projects h2
+{
+font-size:30px;
 }
 
-@media (max-width: 1000px) {
-    .intro { font-size: 25px; }
-    .aboutme h1 { font-size: 25px; }
-    .sp-odkaz { font-size:20px; }
-    .projects { font-size: 30px; }
-    .projects h2 { font-size: 18px; }
-    .contact { font-size: 20px; }
+.contact
+{
+font-size: 35px;
+}
+}
+@media(min-width:1300px)
+{
+.intro
+{
+    font-size: 40px;
+}
+.aboutme h1
+{
+font-size: 45px;
+}
+.sp-odkaz
+{
+font-size: 35px;
 }
 
-@media (max-width: 900px) {
-    .intro { font-size: 21px; 
-    }
-    .aboutme h1 { font-size: 20px; }
-    .sp-odkaz { font-size: 17px; }
-    .projects { font-size: 21px; }
-    .projects h2 { font-size: 14px; }
-    .contact { font-size: 16px; }
+.projects
+{
+font-size: 40px;
 }
-@media (max-width: 750px) {
-    .intro { font-size: 17px; 
-    }
-    .aboutme h1 { font-size: 20px; }
-    .sp-odkaz { font-size: 17px; }
-    .projects { font-size: 17px; }
-    .projects h2 { font-size: 14px; }
-    .contact { font-size: 16px; }
+.projects h2
+{
+font-size:25px;
 }
 
-.content {
+.contact
+{
+font-size: 35px;
+}
+}
+@media(min-width:1000px)
+{
+.intro
+{
+    font-size: 30px;
+}
+.aboutme h1
+{
+font-size: 30px;
+}
+.sp-odkaz
+{
+font-size: 30px;
+}
+
+.projects
+{
+font-size: 30px;
+margin-left:25px;
+}
+.projects h2
+{
+font-size:15px;
+}
+
+.contact
+{
+font-size: 25px;
+}
+}
+@media(min-width:700px)
+{
+.intro
+{
+    font-size: 20px;
+}
+.aboutme h1
+{
+font-size: 20px;
+}
+.sp-odkaz
+{
+font-size: 20px;
+}
+
+.projects
+{
+font-size: 20px;
+}
+.projects h2
+{
+font-size:10px;
+}
+
+.contact
+{
+font-size: 20px;
+}
+}
+.content
+{
     display: flex; 
     flex-wrap: wrap; 
-    gap: 20px; 
-    justify-content: center; 
+    gap: 20px;
 }
-
-
-
-@media (max-width: 480px) {
+@media (max-width: 700px) {
     .content {
         flex-direction: column; 
-        align-items: center; 
+        align-items: flex-start; 
     }
-    
-    .intro,
-    .aboutme,
-    .projects,
-    .contact {
-        margin: 10px 0; 
-    }
-    .intro { font-size: 15px; 
-    }
-    .aboutme h1 { font-size: 15px; }
-    .sp-odkaz { font-size: 13px; }
-    .projects { font-size: 14px; }
-    .projects h2 { font-size: 11px; }
-    .contact { font-size: 10px; }
+    .intro
+{
+    font-size: 15px;
+}
+.aboutme h1
+{
+font-size: 15px;
+}
+.sp-odkaz
+{
+font-size: 15px;
+}
+
+.projects
+{
+font-size: 15px;
+}
+.projects h2
+{
+font-size:8px;
+}
+
+.contact
+{
+font-size: 15px;
+}
 }

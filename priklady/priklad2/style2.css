@@ -1,0 +1,29 @@
+.vysledek
+{
+height: 100px;
+width: 100px;
+background-color: black;
+display: flex; 
+justify-content: center; 
+align-items: center;
+}
+.vsecko
+{
+display:flex;
+flex-direction: rows;
+gap:5px
+}
+.buttonbutton
+{
+height: 30px;
+width: 100px;
+}
+.vysledek-text
+{
+text-align: center;
+color:white; 
+}
+.vysledek
+{
+color:white;
+}
