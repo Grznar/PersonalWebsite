@@ -9,6 +9,26 @@
     
     
 }
+.menu
+{
+max-width: 500px;
+width: 0px;
+height: 100vh;
+background-color: cyan;
+position: fixed;
+top: 0;
+right: 0;
+}
+.menu--open
+{
+width: 500px;
+background-color: red;
+
+}
+.tlacitko
+{
+width:25px;
+}
 .wrapper{
 
     display:flex;
