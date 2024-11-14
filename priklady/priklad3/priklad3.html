@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Kontaktní formulář</title>
+</head>
+<body>
+    <div class="content-wrapper">
+        <img src="JanBulant.jpg" alt="Profilový obrázek" class="background-image">
+    <div class="form-container">
+        <form id="myForm">
+            <label for="ffname">Jméno:</label>
+            <input type="text" id="ffname" name="ffname">
+            
+            <label for="fsname">Příjmení:</label>
+            <input type="text" id="fsname" name="fsname">
+            
+            <label for="femail">Email:</label>
+            <input type="email" id="femail" name="femail">
+            
+            <label for="fphone">Telefon:</label>
+            <input type="text" id="fphone" name="fphone">
+            
+            <label for="fadres">Adresa:</label>
+            <input type="text" id="fadres" name="fadres">
+            
+            
+            
+            <label for="fmes">Zpráva:</label>
+            <textarea id="fmes" name="fmes" maxlength="255"></textarea>
+            
+            <button type="button" id="btn">Odeslat
+            
+            </button>
+        </form>
+    </div>
+</div>
+    <div id="alertBox" class="alert hidden"></div>
+    <script src="script3.js" defer></script>
+</body>
+</html>
